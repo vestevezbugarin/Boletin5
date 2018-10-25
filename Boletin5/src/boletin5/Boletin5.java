@@ -34,7 +34,7 @@ public class Boletin5 {
                     System.out.println("\n*************************************************************"
                             + "\n*                      Sistema de Ingresos                  *"
                             + "\n*************************************************************");
-                    while (aceptado) {
+                    while (!aceptado) {
 
                         System.out.println("\nIntroduce cantidade a ingresar:");
                         aceptado = contaActual.ingreso(tl.nextFloat());
@@ -45,7 +45,7 @@ public class Boletin5 {
                     System.out.println("\n*************************************************************"
                             + "\n*                    Sistema de Retiradas                   *"
                             + "\n*************************************************************");
-                    while (aceptado) {
+                    while (!aceptado) {
 
                         System.out.println("\nIntroduce cantidade a retirar:");
                         aceptado = contaActual.reintegro(tl.nextFloat());
@@ -56,7 +56,7 @@ public class Boletin5 {
                     System.out.println("\n*************************************************************"
                             + "\n*                   Sistema de Transferencias               *"
                             + "\n*************************************************************");
-                    while (aceptado) {
+                    while (!aceptado) {
 
                         System.out.println("\nIntroduce cantidade a transferir:");
                         aceptado = contaActual.transferencia(conta2, tl.nextFloat());
