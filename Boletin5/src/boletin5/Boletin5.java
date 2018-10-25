@@ -15,7 +15,7 @@ public class Boletin5 {
         do {
             System.out.println("\n**************************************************************"
                     + "\n*                          ¡ Benvid@ !                       *"
-                    + "\n*          Accedeu ao sistema de telebanco de 1ºDAM          *"
+                    + "\n*          Accedeu ao sistema de telebancos                  *"
                     + "\n**************************************************************"
                     + "\n*                   Introduce a opción desexada:             *"
                     + "\n**************************************************************"
