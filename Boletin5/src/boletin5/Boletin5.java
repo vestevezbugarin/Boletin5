@@ -5,6 +5,8 @@ import java.util.Scanner;
 /**
  *
  * @author vestevezbugarin
+ * @version 1.0 
+ * @since 1.0
  */
 public class Boletin5 {
 
