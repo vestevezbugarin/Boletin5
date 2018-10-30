@@ -2,8 +2,16 @@ package boletin5;
 
 import java.util.Scanner;
 
+/**
+ *
+ * @author vestevezbugarin
+ */
 public class Boletin5 {
 
+    /**
+     *
+     * @param args
+     */
     public static void main(String[] args) {
         Scanner tl = new Scanner(System.in);
         Conta contaActual = new Conta("Ana", "x0121", 1171.97);
